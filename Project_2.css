@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    box-sizing: content-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+#outer {
+    background: url("peter-broomfield-m3m-lnR90uM-unsplash\ 1.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    min-height: 85vh;
+    margin-right: 0;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+footer{
+    background:black;
+    margin: 0px;
+    color: white;
+    top: 0px;
+    position: sticky;
+    
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-items: unset;
+}
+
+footer ul li{
+    padding: 30px;
+    padding-left: 200px;
+    margin: 0px;
+}
+
+footer ul strong{
+    color: #00C2FF;
+    margin: 0px;
+}
+
+#outer{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 500px;
+    margin-top: 35px;
+    
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+nav #Nav_Bar{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    margin-left: 250px;
+
+}
+
+nav #Nav_Bar img{
+    margin-right: 8px;
+}
+
+#Selected{
+    border: 0.1 solid white;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: #00C2FF;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+#Selected:hover{
+    background: #ff7b39;
+}
+
+
+#items{
+    color: white;
+    text-decoration: none;
+}
+
+#Home{
+    color: white;
+    text-decoration: none;
+}
+
+#Text_1{
+    margin-top: 170px;
+    margin-left: 250px;
+
+}
+
+#Text_1 h1{
+    color: #00C2FF;
+    font-size: 3rem;
+    
+}
+
+#Text_1 p{
+    font-size:x-large;
+}
+
+#Selected2{
+    border: 0.1 solid white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #00C2FF;
+    border-radius: 3px;
+    font-size: x-large;
+    transition: all 0.5s;
+}
+
+#Selected2:hover{
+    background: #ff7b39;
+}
+
+
+#items{
+    transition: all 0.5s;
+}
+
+#items:hover{
+    color: #ff7b39;
+}
+
+#Home{
+    transition: all 0.5;
+}
+
+#Home:hover{
+    color: #ff7b39;
+}
+
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
